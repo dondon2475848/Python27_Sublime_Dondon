@@ -1,0 +1,31 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"/home/dondon/App/Anaconda2/bin/python",
+				"-u",
+				"$file"
+			],
+			"name": "Anaconda Python Builder",
+			"selector": "source.python"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"anaconda_linting": true,
+		"anaconda_linting_behaviour": "always",
+		"pep257": false,
+		"python_interpreter": "/home/dondon/App/Anaconda2/bin/python",
+		"test_command": "python -m unittest discover",
+		"use_pylint": false,
+		"validate_imports": true
+	}
+}
